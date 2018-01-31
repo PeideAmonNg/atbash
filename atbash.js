@@ -1,4 +1,3 @@
-
 // Expects String arguments, returns the decrypted text.
 function getDecryptedText(CONSTANT, cipher, encrypted){
 	if(!(typeof CONSTANT == 'string' || CONSTANT instanceof String) || !(typeof cipher == 'string' || cipher instanceof String) || CONSTANT.length != cipher.length){
@@ -48,4 +47,4 @@ var encrypted = 'knlfgnb, sj koqj o yvnewju';
 
 runTests(CONSTANT);
 
-console.log(getDecryptedText(CONSTANT, cipher, encrypted));
+console.log(getDecryptedText(CONSTANT, cipher, encrypted)); // Original text is "houston, we have a problem"
